@@ -20,3 +20,4 @@ X AdminUser -> STI
 
 ## Refactor TODOS:
 - Refactor user association integration test in post_spec
+- Add a full name for users
