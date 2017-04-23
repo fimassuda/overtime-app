@@ -10,6 +10,11 @@
 
 ## Features:
 - Approval Workflow
+    1. Status to post
+    2. Status: required
+    3. Status: default
+    4. Implement approval stages
+    5. locking
 - SMS Sending -> link to approval or overtime input
 - x Administrate admin dashboard
 - x Block non admin and guest users
