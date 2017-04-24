@@ -29,3 +29,6 @@
 
 ## Refactor TODOS:
 - x Refactor posts/_form for admin user status
+    # No spaces or dashes
+    # all characters have to be a number
+    # exactly 10 characters
