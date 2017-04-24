@@ -22,13 +22,4 @@
 - Email summary to manager for approval
 - Needs to be documented if employee did not log overtime
 
-## UI:
-- x Bootstrap -> formatting
-- x Icons from font awesome
-- x Update the styles for forms
-
 ## Refactor TODOS:
-- x Refactor posts/_form for admin user status
-    # No spaces or dashes
-    # all characters have to be a number
-    # exactly 10 characters
