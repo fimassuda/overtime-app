@@ -23,8 +23,7 @@
 - x Update buttons to include time span
 - x Update button sort on employee homepage
 - x Remove unnecessary nav bar buttons for managers
-- Fix admin dashboard bug
-- Implement honeybadger for error reporting
+- x Fix admin dashboard bug
 - Implement new relic to keep site alive
 
 ## TODOS:
