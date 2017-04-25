@@ -37,7 +37,7 @@ describe 'navigate' do
                                 email: "non_authorized_user@test.com",
                                 password: "password",
                                 password_confirmation: "password",
-                                phone: "5555555555")
+                                phone: "55555555555")
 
       post_from_another_user = Post.create(date: Date.today, rationale: "This post shouldn't be seen", user_id: other_user.id, overtime_request: 3.5)
 
@@ -49,6 +49,13 @@ describe 'navigate' do
 
   describe 'new' do
     it 'has a link from the homepage' do
+      employee = Employee.create(first_name: "Employee",
+                                last_name: "User",
+                                email: "employee@test.com",
+                                password: "password",
+                                password_confirmation: "password",
+                                phone: "55555555555")
+      login_as(employee, :scope => :user)
       visit root_path
       click_link("new_post_from_nav")
       expect(page.status_code).to eq(200)
